@@ -144,13 +144,11 @@ class ScreenUtil {
 
   /// 当前设备宽度 dp
   /// The horizontal extent of this size.
-  double get screenWidth =>
-      _context != null ? MediaQuery.of(_context!).size.width : _screenWidth;
+  double get screenWidth => _screenWidth;
 
   ///当前设备高度 dp
   ///The vertical extent of this size. dp
-  double get screenHeight =>
-      _context != null ? MediaQuery.of(_context!).size.height : _screenHeight;
+  double get screenHeight => _screenHeight;
 
   /// 状态栏高度 dp 刘海屏会更高
   /// The offset from the top, in dp
